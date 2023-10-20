@@ -4,7 +4,7 @@ namespace Jenssegers\Agent;
 
 use BadMethodCallException;
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
-use Mobile_Detect;
+use Detection\Mobile_Detect;
 
 class Agent extends Mobile_Detect
 {
